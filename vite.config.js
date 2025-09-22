@@ -7,6 +7,7 @@ import react from '@vitejs/plugin-react';
 // '@/components/NavBar' rather than relative paths.
 
 export default defineConfig({
+  base: '/belt-tracker/',
   plugins: [react()],
   resolve: {
     alias: {
