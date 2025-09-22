@@ -1,0 +1,26 @@
+{
+  "name": "belt-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A user‑friendly React app to explain the BELT attendance metric and track office days with a built‑in BELT calculator.",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
+    "lucide-react": "^0.304.0",
+    "@shadcn/ui": "^0.1.10",
+    "recharts": "^2.8.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "vite": "^5.0.3",
+    "@vitejs/plugin-react": "^4.1.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  }
+}
